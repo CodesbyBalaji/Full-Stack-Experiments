@@ -1,0 +1,34 @@
+body{
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    border: 2px solid;
+}
+img{
+    position: relative;
+    margin: 30px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.p1{
+    border: 2px solid;
+    padding: 1px;
+    margin: 10px;
+    position: absolute;
+    left: 300px;
+    bottom: 480px;
+    
+
+}
+table,th,td{
+    margin: 10px;
+    border:2px solid;
+    height: 50px;
+    border-collapse: collapse;
+
+}
+table{
+    width: 50%;
+}
+td:hover{
+    background-color: rgb(198, 196, 196);
+}
