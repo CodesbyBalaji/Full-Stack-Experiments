@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+    <style>
+        label{
+            text-align: center;
+        }
+        form{
+            text-align: center;
+            padding: 10px;
+        }
+        label {
+           margin-bottom: 10px; 
+        }
+
+        input, select {
+            margin-bottom: 20px; 
+            padding: 8px;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Karunya University</h1>
+    <hr>
+    <div style="text-align: center;">
+        <a href="Firstpage.html">Media Element</a>
+        <a href="Secondpage.html">Application Form</a>
+        <hr>
+    </div>
+
+    <fieldset>
+        <legend style="text-align: center;">Application Form</legend>
+        <div>
+        <form>
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name"><br>
+            <label>Application Number</label>
+            <input type="text" placeholder="URK22CO2002"><br>
+            <label>Password</label>
+            <input type="password" placeholder="******"><br>
+            <label>Date of Birth</label>
+            <input type="date" placeholder="Enter your name"><br>
+            <label>Age</label>
+            <input type="number"><br>
+            <label>Mobile Number</label>
+            <input type="number" placeholder="Enter Mobile Number"><br>
+            <label>Email</label>
+            <input type="email" placeholder="Enter Email ID"><br>
+
+            <label>Gender</label>
+            <input type="radio" name="Gender" value="Male">
+            <label>Male</label>
+            <input type="radio" name="Gender" value="Female">
+            <label>Female</label><br>
+
+            <label>Address</label>
+            <textarea  rows="4" cols="10" ></textarea><br>
+
+            <label>Languages Known</label>
+            <input type="checkbox">
+            <label>English</label>
+            <input type="checkbox">
+            <label>Tamil</label>
+            <input type="checkbox">
+            <label>Malayalam</label>
+            <input type="checkbox">
+            <label>Telugu</label>
+            <input type="checkbox">
+            <label>Hindi</label><br>
+
+            <label>Select your course</label>
+            <select id="course" required>
+                <option value="btech">B.Tech</option>
+                <option value="mba">MBA</option>
+                <option value="msc">M.Sc</option>
+            </select><br>
+
+            <label for="fileUpload">Upload your Photo</label>
+            <input type="file" id="fileUpload" name="fileUpload" accept="image/*" required><br>
+
+            <button type="submit">Submit</button>
+            
+        </form>
+        </div>
+    </fieldset>
+    
+</body>
+</html>
